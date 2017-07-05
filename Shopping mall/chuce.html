@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8" />
+		<title></title>
+		
+		<style type="text/css">
+			*{margin: 0;padding: 0;}
+li{
+	list-style: none;
+}
+#top{
+	width:100%px;
+	height: 30px;
+	background: #f8f8f8;
+}
+
+#top .top-warper{
+	width: 1190px;
+	height: 30px;
+	margin:0 auto;
+	
+}
+#top .top-warper li{
+	float: left;
+	list-style: none
+}
+
+#top .top-warper li a{
+		text-decoration: none;
+}
+#top .top-warper .top-right{
+	float: right;
+}
+ #top .top-warper .top-right .top-left-red a{
+ 	color:red;
+ }
+#top .top-warper .top-r-t{
+	width:100px;
+	height: 100px;
+}
+#top .top-warper .top-left li{
+	width:98px;
+	height:29px;
+	border:1px solid #e9e9e9;
+	text-align:center;
+	line-height:30px;
+	font-size: 12px;
+	
+}
+#top .top-warper .top-left {
+	
+	margin-left:98px;
+}
+#top .top-warper .top-right .top-left-red{
+	width:46px;
+	height:30px ;
+
+	line-height:30px;
+}
+
+#top .top-warper .top-right li{
+	margin-left: 20px;
+	font-size: 12px;
+		line-height:30px;
+}
+
+#top .top-r-t{
+					width:100px;
+					height:66px;
+					
+					position:absolute;
+					left:19%;
+					top:30px;
+					display: none;	
+				}
+	
+			#top	.top-r-l{
+					width:80px;
+					height:30px;
+					
+					position:absolute;
+					right:15%;
+					top:30px;
+				display: none;	
+				}
+				
+			#top	.top-r-c{
+					width:186px;
+				
+					position:absolute;
+					right:6%;
+					top:30px;
+						display: none;	
+				}
+			
+			#top	.top-r-b{
+					width:80px;
+					height:30px;
+					
+					position:absolute;
+					right:1%;
+					top:30px;
+						display: none;		
+				}
+		a{
+			text-decoration: none;
+		}
+		body{
+			
+			width:100%;
+			
+		}
+		#banner{
+			width:100%;
+			height:628px;
+			background-image: url(img/13.jpg);
+			background-size: 100% 658px;
+			
+		
+		}
+		#banner div{
+			width:479px;
+			height:550px;
+			background: #fff;
+			margin-top:66px;
+			float: right;
+			
+		}
+		span{
+			display: block;
+			width:174px;
+			height:40px;
+			float:left;
+			text-align: center;
+			line-height:40px;
+			background:#00BAFF
+		}
+		
+		[type="submit"]{
+			width: 312px;
+			height: 40px;
+			background: red;
+			border:0px;
+		}
+		em{
+			font-size: 20px;
+			color:red;
+		}
+		[type="text"]{
+			margin-top:30px;
+		}
+		 #footer a:hover{
+		 	color:red;
+		 	
+		 }
+		 #footer{width:100%;
+			 height:100px;
+		 }
+		 
+		  #footer .footer-warpper{
+		  width: 1190px;
+			height: 30px;
+		
+			margin:0 auto;
+		  }
+		</style>
+	</head>
+	<body>
+		
+		
+	<div id="top"> 
+			<div class="top-warper">
+				
+				<ul class="top-left">
+					<li><a href="#">时尚商城</a></li>
+					
+					<li class="top-left-h"><a href="#">手机优酷</a></li>
+				</ul>
+		  
+          
+			<ul class="top-right">
+					<li class="top-left-red"><a href="#">登录</a></li>
+					<li class="top-left-red"><a href="#">注册</a></li>
+					<li>|</li>
+					<li class="top-left-h" class="top-left-l"><a href="#">我的优购</a><img src="img/1.jpg" /></li>
+					<li><a href="#">我的订单</a></li>
+					<li class="top-left-h"  class="top-left-l"><a href="#">公告</a><img src="img/1.jpg" /></li>
+					<li class="top-left-h"  class="top-left-l"><a href="#">更多</a><img src="img/1.jpg" /></li>
+				</ul>
+				
+		 
+				<div class="top-r-t" style="font-size: 12px">
+					<a href="#"><img  style="width: 100%;height:100% ;" src="img/tpo.jpg"/></a>
+				</div>
+					
+					<div class="top-r-l" style="font-size: 12px">
+				<a href="#">我的收藏</a>
+				</div>
+				
+				<div class="top-r-c " style="font-size: 12px">&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">免费福利<br/>大家快来领取早到早得，大家赶紧购买。</a>   
+				</div>
+				
+				<div class="top-r-b"  style="font-size: 12px">
+					
+					<a href="#"> 我的收藏的</a>   
+				</div>	
+				
+			</div>
+        
+			</div>
+			<div style="clear: both;"></div>
+			 <div id="banner">
+			 	<div>
+			 		<span style="margin-left:16px;">账户密码登录</span><span style="background:#666666;">手机快捷登录</span><br />
+			 		<input id="shouji" style="width: 308px;height:36px ;margin-left: 35px;" type="text" placeholder="手机号"  /> <em style="font-size: 30px" id="passwordErr2"></em>
+			 		<input style="width: 198px;height:36px ;margin-left: 35px;" type="text" placeholder="验证码" /><i id="btn">1514</i><br />
+			 		<input style="width: 308px;height:36px ;margin-left: 35px;" type="text" placeholder="短信验证" /><i>获取验证码</i>
+			 		<input id="userPhone" style="width: 198px;height:36px ;margin-left: 35px;" type="text" placeholder="密码" />  <em style="font-size: 30px" id="passwordErr"></em>
+			 		<input id="phoneErr" style="width: 308px;height:36px ;margin-left: 35px;" type="text" placeholder="确认密码" /><em style="font-size: 30px" id="passwordErr1"></em>
+			 		<p style="margin-top:30px;margin-left: 35px;"><a href="#">我已阅读并同意<em>《优购会员注册协议》</a></p>
+			 			<input style="margin-top:20px;margin-left: 35px;" type="submit" value="注册" />
+			 	</div>
+			 	
+			 </div>
+			 
+			 <div id="footer">
+			<div class="footer-warpper">
+				<li style="margin-left:160px;margin-top:40px;font-size: 14px;color:#666666">Copyright © 2011-2014 Yougou Technology Co., Ltd. <a href="#">粤ICP备09070608号-4</a> 增值电信业务经营许可证：<a href="#">粤 B2-20090203</a></li>
+			</div>
+			
+		</div>
+	</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.8.3.js" ></script>
+<script>
+
+var ord=0;
+var isblock=true;
+var isblock=false;
+
+window.onload=function(){
+
+function str(){
+
+var divs=document.getElementsByClassName("top-warper")[0].children;
+
+console.log( divs.length)
+console.log($(".top-left-h").length)
+for(let i=0;i<$(".top-left-h").length;i++){
+	$(".top-left-h")[i].index=i;
+	
+$(".top-left-h")[i].onmousemove=function(){
+	for(let j=2;j<divs.length;j++){
+		if(i+2==j){
+			isblock=true;
+			divs[j].style.display="block";
+			break;
+		}
+	}	
+}	
+
+	}
+
+for(let i=0;i<$(".top-left-h").length;i++){
+	$(".top-left-h")[i].index=i;
+	
+$(".top-left-h")[i].onmouseout=function(){
+	for(let j=2;j<divs.length;j++){
+		if(i+2==j){
+			isblock=false;
+			divs[j].style.display="none";
+			break;
+		}
+	
+	}	
+}	
+
+	}
+
+	for(let k=2;k<divs.length;k++){
+		divs[k].index=k;
+		divs[k].onmousemove=function(){
+	
+			console.log(isblock)
+			if(isblock==false){
+				divs[k].style.display="block";
+				
+			}
+				
+			}
+		}
+		for(let k=2;k<divs.length;k++){
+		divs[k].index=k;
+		divs[k].onmouseout=function(){
+	
+			console.log(isblock)
+			if(isblock==false){
+				divs[k].style.display="none";
+				
+			}
+				
+			}
+		}
+	}
+str();
+
+
+	var reg = /^([1-9]||[a-z])\w{9}[0-9]$/g;
+		 document.getElementById("userPhone").onblur = function(){
+			//邮编： 六位数字；第一位不能为0；
+		
+			var str= document.getElementById("userPhone").value;
+			if(reg.test(str)){
+				document.getElementById("passwordErr").innerHTML= "√";
+			}else{
+		document.getElementById("passwordErr").innerHTML= "×";
+			}
+		}
+		 
+		  document.getElementById("phoneErr").onblur = function(){
+			//邮编： 六位数字；第一位不能为0；
+			
+			var str1= document.getElementById("phoneErr").value;
+			if(str==str1 && reg.test(str1)){
+				document.getElementById("passwordErr1").innerHTML= "√";
+			}else{
+		document.getElementById("passwordErr1").innerHTML= "×";
+			}
+		}
+
+
+
+ document.getElementById("shouji").onblur = function(){
+			
+		var reg1=/^1[0-9]\d{9}$/g;
+			var str2= document.getElementById("shouji").value;
+			if(reg1.test(str2)){
+				document.getElementById("passwordErr2").innerHTML= "√";
+			}else{
+		document.getElementById("passwordErr2").innerHTML= "×";
+			}
+		}
+		 
+
+
+}
+document.getElementById("btn").onclick=function(){
+		changeyzm()
+}
+	function changeyzm(){
+		var i=0;
+		var str="";
+		while(i<4){
+			var num1=parseInt(Math.random()*123);
+			if((num1>=48 && num1<=57)||(num1>=65 && num1<=90)||(num1>=97 && num1<=122)){
+				str+=String.fromCharCode(num1);
+				i++;
+			}
+		}
+		document.getElementById("btn").innerHTML=str;	
+	}
+
+</script>

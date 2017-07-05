@@ -1,0 +1,366 @@
+*{margin: 0;padding: 0;}
+li{
+	list-style: none;
+}
+#top{
+	width:100%px;
+	height: 30px;
+	background: #f8f8f8;
+}
+
+#top .top-warper{
+	width: 1190px;
+	height: 30px;
+	margin:0 auto;
+	
+}
+#top .top-warper li{
+	float: left;
+	list-style: none
+}
+
+#top .top-warper li a{
+		text-decoration: none;
+}
+#top .top-warper .top-right{
+	float: right;
+}
+ #top .top-warper .top-right .top-left-red a{
+ 	color:red;
+ }
+#top .top-warper .top-r-t{
+	width:100px;
+	height: 100px;
+}
+#top .top-warper .top-left li{
+	width:98px;
+	height:29px;
+	border:1px solid #e9e9e9;
+	text-align:center;
+	line-height:30px;
+	font-size: 12px;
+	
+}
+
+#top .top-warper .top-right .top-left-red{
+	width:46px;
+	height:30px ;
+
+	line-height:30px;
+}
+
+#top .top-warper .top-right li{
+	margin-left: 20px;
+	font-size: 12px;
+		line-height:30px;
+}
+
+#top .top-r-t{
+					width:100px;
+					height:66px;
+					
+					position:absolute;
+					left:19%;
+					top:30px;
+					display: none;	
+				}
+	
+			#top	.top-r-l{
+					width:80px;
+					height:30px;
+					
+					position:absolute;
+					right:15%;
+					top:30px;
+				display: none;	
+				}
+				
+			#top	.top-r-c{
+					width:186px;
+				
+					position:absolute;
+					right:6%;
+					top:30px;
+						display: none;	
+				}
+			
+			#top	.top-r-b{
+					width:80px;
+					height:30px;
+					
+					position:absolute;
+					right:1%;
+					top:30px;
+						display: none;		
+				}
+		a{
+			text-decoration: none;
+		}
+	
+			#header{
+				width:100% ;
+				height:126px ;
+				background:#99f;
+			}
+			#header .header-warpper{
+				width:1190px;
+				height:126px ;
+				background: #F8F8F8;
+				margin:0 auto;
+			}
+			#header .header-warpper img{
+				float: left;
+				margin-top:20px;
+				margin-left:30px;
+			}
+		
+				#header .header-warpper ul{
+					margin-left:270px;
+				}
+				#header .header-warpper ul li{
+					float: left;
+					list-style: none;
+					border-right:1px solid #000000;
+					margin-top:-10px;
+				}
+				#header .header-warpper ul li:hover a{
+				color:red;
+				}
+
+
+		
+			
+			#div1 .div1-1{
+				width:148px ;
+				height:504px ;
+				background: #00BAFF;
+				float: left;
+			}
+			#div1 .div1-1 li{
+				width:148px ;
+				height:160px ;
+				text-align: center;list-style: none;
+				
+				
+			}
+			#div1 .div1-1 li span{
+				line-height:10px;
+			}
+			#div1 .div1-1 li a{
+				line-height: 10px;
+				text-decoration: none;
+				font-size: 12px;
+				
+			}
+			
+			#div1{
+				position: absolute;
+					top:196px;
+				left:244px;
+				display: none;
+			}
+			
+			
+			
+				
+			#div2 .div1-1{
+				width:148px ;
+				height:504px ;
+				background: #00BAFF;
+				float: left;
+			}
+			#div2 .div1-1 li{
+				width:148px ;
+				height:160px ;
+				text-align: center;
+				
+				
+			}
+			#div2 .div1-1 li span{
+				line-height:10px;
+			}
+			#div2 .div1-1 li a{
+				line-height: 10px;
+				text-decoration: none;
+				font-size: 12px;
+				
+			}
+			
+			#div2{
+				position: absolute;
+					top:196px;
+				left:244px;
+				display: none;
+			}
+			
+			
+			
+			#div3 .div1-1{
+				width:148px ;
+				height:504px ;
+			background: #00BAFF;
+				float: left;
+			}
+			#div3 .div1-1 li{
+				width:148px ;
+				height:160px ;
+				text-align: center;
+				
+				
+			}
+			#div3 .div1-1 li span{
+				line-height:10px;
+			}
+			#div3 .div1-1 li a{
+				line-height: 10px;
+				text-decoration: none;
+				font-size: 12px;
+				
+			}
+			
+			#div3{
+				position: absolute;
+					top:196px;
+				left:244px;
+				display: none;
+			}
+			
+			#div4 .div1-1{
+				width:148px ;
+				height:504px ;
+				background: #00BAFF;
+				float: left;
+			}
+			#div4 .div1-1 li{
+				width:148px ;
+				height:160px ;
+				text-align: center;
+				
+				
+			}
+			#div4 .div1-1 li span{
+				line-height:10px;
+			}
+			#div4 .div1-1 li a{
+				line-height: 10px;
+				text-decoration: none;
+				font-size: 12px;
+				
+			}
+			
+			#div4{
+				position: absolute;
+					top:196px;
+				left:244px;
+				display: none;
+			}
+			
+			#div5 .div1-1{
+				width:148px ;
+				height:504px ;
+				background: #00BAFF;
+				float: left;
+			}
+			#div5 .div1-1 li{
+				width:148px ;
+				height:160px ;
+				text-align: center;
+				
+				
+			}
+			#div5 .div1-1 li span{
+				line-height:10px;
+			}
+			#div5 .div1-1 li a{
+				line-height: 10px;
+				text-decoration: none;
+				font-size: 12px;
+				
+			}
+			
+			#div5{
+				position: absolute;
+				top:196px;
+				left:244px;
+				display: none;
+			}
+			
+			#div6 .div1-1{
+				width:148px ;
+				height:504px ;
+				background: #00BAFF;
+				float: left;
+			}
+			#div6 .div1-1 li{
+				width:148px ;
+				height:160px ;
+				text-align:center;
+			
+				
+				
+			}
+			#div6 .div1-1 li span{
+				line-height:10px;
+			}
+			#div6 .div1-1 li a{
+				line-height: 10px;
+				text-decoration: none;
+				font-size: 12px;
+				
+			}
+			
+			#div6{
+				position: absolute;
+				top:196px;
+				left:244px;
+				display: none;
+				
+				
+			}
+			#div6 .div1-1 li{
+				list-style: none;
+			}
+			#div5 .div1-1 li{
+				list-style: none;
+			}
+			#div4 .div1-1 li{
+				list-style: none;
+			}
+			#div3 .div1-1 li{
+			list-style: none;
+			}
+			#div2 .div1-1 li{
+				list-style: none;
+			}
+			#div .div1-1 li{
+				list-style: none;
+			
+			}
+			#bloc ul{
+				width:200px;
+				height: 483px;
+				background:#ACD598;
+			
+				
+			}
+			#bloc li{
+				width:200px;
+				height:72px;
+				list-style: none;
+				background:#8dc989;
+				float: left;
+					
+			}
+			#bloc li a{
+				font-size: 12px;
+			}
+			#bloc{
+				position: absolute;
+				left: 45px;
+				height:20px;
+				display: none;
+			
+			}
+			#bloc li:hover{
+				background:#00baff;
+			}	
