@@ -5,7 +5,7 @@ var isblock=false;
 
 window.onload=function(){
 
-function str(){
+function str1(){
 
 var divs=document.getElementsByClassName("top-warper")[0].children;
 
@@ -67,7 +67,7 @@ $(".top-left-h")[i].onmouseout=function(){
 			}
 		}
 	}
-str();
+str1();
 
 
 	var reg = /^([1-9]||[a-z])\w{9}[0-9]$/g;

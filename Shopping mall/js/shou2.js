@@ -1,36 +1,11 @@
+
+
+window.onload=function(){
+
+function str1(){
 var ord=0;
 var isblock=true;
 var isblock=false;
-
-window.onload=function(){
-var divs=document.getElementsByClassName("top-warper")[0].children;
-
-for(let i=0;i<$(".top-left-h").length;i++){
-	$(".top-left-h")[i].index=i;
-	
-$(".top-left-h")[i].onmousemove=function(){
-	console.log(i)
-	for(var j=0;j<divs.length;j++){
-		
-		if((i+2)!=(j+2)){
-			continue;
-		}else{
-			divs[j+2].style.display="block";
-		}
-	
-	}	
-}	
-for(let k=2;k<divs.length;k++){
-
-	divs[k].onmouseout=function(){
-		divs[k].style.display="none";
-	}
-	
-}
-
-	}
-
-function str(){
 
 var divs=document.getElementsByClassName("top-warper")[0].children;
 
@@ -92,10 +67,11 @@ $(".top-left-h")[i].onmouseout=function(){
 			}
 		}
 	}
-str();
+str1();
 
 
-console.log($("#bloc"));
+console.log($(".nav-left").length);
+
 for(let i=0;i<$(".nav-left").length;i++){
 	$(".nav-left")[i].index=i;
 	$(".nav-left")[i].onmouseover=function(){
